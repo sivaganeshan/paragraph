@@ -67,6 +67,16 @@ class Paragraph {
 
     this.data = data;
   }
+  
+   /**
+   * Allow to use native Enter behaviour
+   *
+   * @returns {boolean}
+   * @public
+   */
+  static get enableLineBreaks() {
+    return true;
+  }
 
   /**
    * Check if text content is empty and set empty string to inner html.

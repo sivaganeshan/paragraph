@@ -1,5 +1,5 @@
 {
-  "name": "@editorjs/paragraph",
+  "name": "@editorjs/paragraphWithLineBreaks",
   "version": "2.8.0",
   "keywords": [
     "codex editor",

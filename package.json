@@ -10,15 +10,15 @@
   ],
   "description": "Paragraph Tool for Editor.js",
   "license": "MIT",
-  "repository": "https://github.com/editor-js/paragraph",
+  "repository": "https://github.com/sivaganeshan/paragraph/",
   "main": "./dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development --watch"
   },
   "author": {
-    "name": "CodeX",
-    "email": "team@codex.so"
+    "name": "CodeX, sivaganeshan",
+    "email": "team@codex.so, bsivaganeshan@hotmail.com "
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",

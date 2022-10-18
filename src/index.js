@@ -79,6 +79,20 @@ class Paragraph {
   }
 
   /**
+   * Sanitizer rules
+   *
+   * @returns {object}
+   */
+   static get sanitize() {
+    return {
+      style: {},
+      items: {
+        br: true,
+      },
+    };
+  }
+
+  /**
    * Check if text content is empty and set empty string to inner html.
    * We need this because some browsers (e.g. Safari) insert <br> into empty contenteditanle elements
    *
@@ -257,7 +271,8 @@ class Paragraph {
   static get toolbox() {
     return {
       icon: require('./toolbox-icon.svg').default,
-      title: 'Text'
+      title: 'Text',
+      shortcut: 'just starting with the plain text'
     };
   }
 }

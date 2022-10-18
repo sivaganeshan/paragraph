@@ -195,14 +195,7 @@
     */
    static get sanitize() {
      return {
-       text: {
-         div:true,
-         b:true,
-         i:true,
-         a:{
-          href:true
-         }
-       }
+       text: {}
      };
    }
  

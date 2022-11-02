@@ -258,12 +258,13 @@
    /**
     * Icon and title for displaying at the Toolbox
     *
-    * @return {{icon: string, title: string}}
+    * @return {{icon: string, title: string , shortDescription: string}}
     */
    static get toolbox() {
      return {
        icon: require('./toolbox-icon.svg').default,
-       title: 'Text'
+       title: 'Text',
+       shortDescription : "plain text/paragraph"
      };
    }
  }
